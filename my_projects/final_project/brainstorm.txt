@@ -1,0 +1,13 @@
+--Projects Ideas--
+
+"Hard" 1) Create ASCII art from photo
+	(found a PNG to JPG converter in python I could work with to
+	incorporate for error prevention)
+
+"Intermediate" 2) Dice rolling simulator
+	(D4, D6, D8, D10, D12, and D20 for my sons D&D with
+	 GUI if my time and skill allows)
+
+"Easy" 3) Desktop Calculator
+
+
