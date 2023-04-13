@@ -4,7 +4,7 @@
 
 #Rock Paper Scissors
 
-#Random module
+#Import modules
 import random
 
 def main():
