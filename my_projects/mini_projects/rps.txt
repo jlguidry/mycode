@@ -1,0 +1,20 @@
+pt = player_choice
+ct = computer_choice
+1 = Rock
+2 = Paper
+3 = Scissors
+
+    if(pt == ct):
+        print("It's Tie!")
+    elif (pt == 1 and ct == 2):
+        print("Paper covers Rock. Computer wins!")
+    elif (pt == 1 and ct == 3):
+        print("Rock smashes Scissors. Player wins!")
+    elif (pt == 2 and ct == 1):
+        print("Paper covers Rock. Player wins!")
+    elif (pt == 2 and ct == 3):
+        print("Scissors cuts Paper. Computer wins!")
+    elif (pt == 3 and ct == 1):
+        print("Rock smashes Scissors. Computer wins!")
+    elif (pt == 3 and ct == 2):
+        print("Scissors cuts Paper. Player wins!")
