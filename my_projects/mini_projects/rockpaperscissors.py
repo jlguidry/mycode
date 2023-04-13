@@ -1,24 +1,23 @@
-# -*- coding: utf-8 -*-
 #!/usr/bin/env python3
 
-#"""Mini Project #1: If-Logic"""
+"""Mini Project #1: If-Logic"""
 
 #Rock Paper Scissors
 
-#Random module?
-
+#Random module
 import random
 
-answer = input("Hi! My name is Py. Do you want to play Rock Paper Scissors?\n")
+#Useless nonsense for my amusement
+answer = input("\nHi! My name is Py. Do you want to play Rock Paper Scissors?\n").lower()
 
 if answer in ["yes", "ye", "y"]:
-    print("Yay!") 
+    print("\nYay!\n") 
 elif answer in ["no", "n"]:
-    print("I\'m not letting you leave until you play :) ")
+    print("\nI'm not letting you leave until you play. :)\n")
 else:
-     print("I didn't understand that, so we'll play anyway :P")
+     print("\nI didn't understand your response.\nSo... We'll play anyway! :P\n")
 
-#initial input
+#Acutual initial game input
 player_choice = input("Rock Paper Scissors, What's your choice?").title()
     
 
@@ -41,5 +40,7 @@ elif (player_choice == "Scissors" and computer_choice == "Rock"):
     print("Rock breaks Scissors. I win!")
 elif (player_choice == "Scissors" and computer_choice == "Paper"):
     print("Scissors cuts Paper. You win!")
+elif (player_choice == "Lizard" or player_choice == "Spock"):
+    print("Nice try, but that's cheating. I win")
 else:
     print("I didn't understand you, so I win!!")
