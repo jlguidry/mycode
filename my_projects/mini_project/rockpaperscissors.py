@@ -8,16 +8,17 @@
 import random
 
 def main():
+    """Pylint really wanted a docstring here"""
 
 #Useless nonsense for my amusement
     answer = input("\nHi! My name is Py. Do you want to play Rock Paper Scissors?\n").lower()
 
     if answer in ["yes", "ye", "y"]:
-        print("\nYay!\n") 
+        print("\nYay!\n")
     elif answer in ["no", "n"]:
         print("\nI'm not letting you leave until you play. :)\n")
     else:
-         print("\nI didn't understand your response.\nSo... We'll play anyway! :P\n")
+        print("\nI didn't understand your response.\nSo... We'll play anyway! :P\n")
 
 #Acutual initial game input
     player_choice = input("Rock Paper Scissors, What's your choice?").title()
@@ -28,7 +29,7 @@ def main():
 #Let's see who our winner is
     print(f"\n{player_choice} vs {computer_choice}\n")
 
-    if(player_choice == computer_choice):
+    if player_choice == computer_choice:
         print("It's Tie!")
     elif (player_choice == "Rock" and computer_choice == "Paper"):
         print("Paper covers Rock. I win!")
@@ -42,7 +43,7 @@ def main():
         print("Rock breaks Scissors. I win!")
     elif (player_choice == "Scissors" and computer_choice == "Paper"):
         print("Scissors cuts Paper. You win!")
-    elif (player_choice == "Lizard" or player_choice == "Spock"):
+    elif player_choice in ["Lizard", "Spock"]:
         print("Nice try, but that's cheating. I win")
     else:
         print("I didn't understand you, so I win!!")
