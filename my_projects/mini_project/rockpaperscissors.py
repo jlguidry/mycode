@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-
 """Mini Project #1: If-Logic"""
-
-#Rock Paper Scissors
 
 #Import modules
 import random
@@ -24,12 +21,10 @@ def main():
 
 #Acutual initial game input
     player_choice = input(crayons.yellow("Rock Paper Scissors, What's your choice?\n\n>>>")).title()
-
     choices = ["Rock", "Paper", "Scissors"]
     computer_choice = random.choice(choices)
 
 #Let's see who our winner is
-
 #couldn't use "\n" in an f string)
 
     print("\n")
