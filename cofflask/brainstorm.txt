@@ -1,0 +1,13 @@
+ how to adjust this for use with my project
+
+
+user gets greeted. 
+user is presented with options to choose from
+state, source, MW
+enter choices to display map
+
+
+Flask server, jinja2 templates (html)
+
+data sourced from csv file 
+csv -> xls?
