@@ -8,7 +8,7 @@ def showinstructions():
     print("You awaken from a strange dream and find yourself on the beach of a strange mountain ")
     print("in the middle of the ocean. The remains of a shattered boat lay cast around you. ")
     print("You're not sure how you got here, and don't remember even getting on a boat. The one ")
-    print("thing you do know is a storm is moving in and the tide seems to rising quickly. You ")
+    print("thing you do know is a storm is moving in and the tide seems to be rising quickly. You ")
     print("spot a cave to the north that should provide you some shelter from the weather. \n")
     print("Move Commands: go 'north', 'south', 'east', 'west'")
     print("Add to Inventory: get 'Item'")
@@ -107,7 +107,7 @@ while True:
             del rooms[current_room]['item']
             # if there's no item in the room or the item doesn't match
         else:
-                #tell them they can't get i
+                #tell them they can't get
             print('The madness of this place must be getting to you. Please give a valid command.')
 
         ## Define the rooms
@@ -122,20 +122,20 @@ while True:
             print('as the knife falls disappearing into the darkness') 
     if current_room == 'Corridor':
         print('You continue deeper into the cave. The path seems to be leading deeper into Earth, yet the ocean which was only feet away from the entrance')
-        print("is nowhere to be found. The deeper you go the higher in altitude you feel. Are you losing your senses or your mind? The thought is interupted")
+        print("is nowhere to be found. The deeper you go the higher in altitude you feel. Are you losing your senses or your mind? The thought is interrupted")
         print('as you come to an opening to what you believe is the north. You see a small stone that appears to be glowing in the darkness. On closer')
         print("inspection, you see that it is a carving of a humanoid figure. It's almost as if the small idol is guarding the path")
     if current_room == 'Chamber' :
-        print("The corridor opens into a vast chamber. You can no longer see the ceiling above your head, although honestly you're not certain")
+        print("The corridor opens into a vast chamber. You can no longer see the ceiling above your head, although honestly, you're not certain")
         print('which way is actually up anymore. There is what looks to be a fountain carved from the stone floor feeding a stream that flows west across ')
         print('the chamber. The water seems to rise from the fountain, but you only see a solid stone base. Carved into the polished stone of the fountain')
         print("are images you've never seen and are somehow beyond the description of any human language")
         if 'rope' in inventory:
-            print('As you stand there mesmorized by the images that seem to be moving in the stone you catch a shimmer in the corner of your eye.')
+            print('As you stand there mesmerized by the images that seem to be moving in the stone you catch a shimmer in the corner of your eye.')
             print('Off to the east is a small tunnel and there is something shining from within')
     if current_room == 'Tunnel':
         print('You crawl your way into the tunnel following the shimmer in the distance. As you reach it you realize it is the strange knife from earlier.')
-        print('The knife is resting on a pile bones. Some you recognize as human, others seem too large and misshapen. This must be the bottom of the pit')
+        print('The knife is resting on a pile bones. Some you recognize as human; others seem too large and misshapen. This must be the bottom of the pit')
     if current_room == 'Stream':
         print("You follow the stream for a while when you start to get the feeling you're being watched. You turn around to see a figure standing just a few meters behind you.")
         if 'carved idol' in inventory:
@@ -144,27 +144,27 @@ while True:
         elif 'Strange knife' in inventory:
             print("You attempt to pull out the knife you found, but there is no time. The figure seems to multiply before your eyes as it engulfs you. You're drug")
             print('to the fountain and submerged into the vast pool of water. The water feels like a living thing surrounding you and setting every nerve')
-            print(' ending aflame. The pain is agonizing and you cam mo longer hold your breath. You finally give in hoping for the release of death and inhale sharply')
+            print(' ending aflame. The pain is agonizing, and you can no longer hold your breath. You finally give in hoping for the release of death and inhale sharply')
             print('only to realize you can still breath in this living liquid. What is this and how long must you endure it? It looks like you will have plenty of time to contemplate')
             break
         else:
             print("You want to run but as you turn back there is another one. The figures seem to multiply before your eyes as they engulf you. You're drug")
             print('to the fountain and submerged into the vast pool of water. The water feels like a living thing surrounding you and setting every nerve')
-            print('ending aflame. The pain is agonizing and you cam mo longer hold your breath. You finally give in hoping for the release of death and inhale sharply')
+            print('ending aflame. The pain is agonizing, and you cam mo longer hold your breath. You finally give in hoping for the release of death and inhale sharply')
             print('only to realize you can still breath in this living liquid. What is this and how long must you endure it? It looks like you will have plenty of time to contemplate')
             break
             
     if current_room == 'Underground lake':
-        print('You continue following the stream until it reaches a fall and pours into a vast underground lake. The lake appears to respond to your presense and begins churning.')
-        print('You catch a glimps of something in the water and lean over to get a better look.')
+        print('You continue following the stream until it reaches a fall and pours into a vast underground lake. The lake appears to respond to your presence and begins churning.')
+        print('You catch a glimpse of something in the water and lean over to get a better look.')
         if 'strange knife' in inventory:
             print('Before you can react you are pulled into the lake by an unseen force. You swim towards the closest bank, but the water begins to cloud black')
-            print('like a dozen octopi scatterd in trails of ink at once. You find yourself struggling more to swim as the cloud rises around you. It feels as if')
-            print('the water itself is trying to drag you down. The harder you swim the further the shore drifts away. In an act of pure desperation you pull the')
+            print('like a dozen octopi scattered in trails of ink at once. You find yourself struggling more to swim as the cloud rises around you. It feels as if')
+            print('the water itself is trying to drag you down. The harder you swim the further the shore drifts away. In an act of pure desperation, you pull the')
             print('strange knife out and begin swinging it wildly in every direction. As you continue to flail in fear you notice the waters grasp on you loosen.')
-            print('Unsure of what is happening, or if any of it is correlated, you sieze the opening and head for dry ground. Slicing a path in front of you')
-            print('as you scramble towards the landing you can feel the darkness fleeing from the blade. You reach the bank of the lake and collapse from exaustion.')
-            print('As you fade out of conscienceness you think you see a form beneath waters surface looking back at you. \n')
+            print('Unsure of what is happening, or if any of it is correlated, you seize the opening and head for dry ground. Slicing a path in front of you')
+            print('as you scramble towards the landing you can feel the darkness fleeing from the blade. You reach the bank of the lake and collapse from exhaustion.')
+            print("As you fade out of consciousness you think you see a form beneath water's surface looking back at you. \n")
             print("The next time you open your eyes you're laying drenched in sweat in your own bed. You tell yourself it was just a dream, but as you sit up")
             print("you feel something in your pocket. You reach in to grab it and feel the shape of the carved idol, hot to the touch...")
             break
@@ -173,7 +173,7 @@ while True:
             print('like a dozen octopi scatterd in trails of ink at once. You find yourself struggling more to swim until you finally become immobile.')
             print("The water around you becomes heavier, applying pressure from every direction. It's as if the darkness itself is constricting you")
             print('with each breath the pressure builds until you can no longer expand your lungs. Just as the blackness enveloped the water, so it begins to')
-            print('swallow your vision. The last thing you see before flling unconscious is...')
+            print('swallow your vision. The last thing you see before falling unconscious is...')
             break
 
 
